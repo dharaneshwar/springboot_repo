@@ -13,7 +13,7 @@ public class EmployeeService
 {  
 @Autowired  
 EmployeeRepository employeeRepository;  
-//getting all student records  
+
 public List<Employee> getAllEmployees()   
 {  
 List<Employee> employees = new ArrayList<Employee>();  
